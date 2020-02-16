@@ -243,3 +243,39 @@ footer {
   line-height: 20px;
   text-align: center;
 }
+
+/* section5 */
+.section5 {
+  display: flex;
+}
+.sec5 {
+  background-image: url("../img/sec5.png");
+  display: flex;
+  height: 500px;
+  width: 50%;
+  justify-content: flex-start;
+}
+.p_sec5 {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: flex-end;
+  text-align: right;
+  margin-top: 80px;
+  max-width: 600px;
+}
+.p_sec5 > *:nth-child(2) {
+  margin-top: 20px;
+  font-size: 16px;
+  align-items: flex-end;
+  text-align: right;
+  line-height: 20px;
+}
+.b-sec5 {
+  padding: 12px 22px;
+  color: #fff;
+  background-color: #325dff;
+  border-radius: 20px;
+  border: none;
+  margin-top: 40px;
+}
